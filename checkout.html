@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Оформлення замовлення</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" media="screen" type="text/css" />
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript"
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body id="checkout-page">
+    <div id="site">
+        <div id="content">
+            <h1>Замовлення</h1>
+            <table id="checkout-cart" class="shopping-cart">
+                <thead>
+                    <tr>
+                        <th scope="col">Виріб</th>
+                        <th scope="col">Кількість</th>
+                        <th scope="col">Ціна</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+
+            <div id="pricing">
+                <p id="sub-total">
+                    <strong>Сума замовлення</strong>: <span id="stotal"></span>
+                </p>
+            </div>
+
+            <form action="order.html" id="checkout-order-form">
+                <h2>Інформація про вас</h2>
+                <fieldset id="fieldset-billing">
+                    <div>
+                        <label for="name">Ім'я</label>
+                        <input type="text" name="name" id="name" data-type="string" />
+                    </div>
+                    <div>
+                        <label for="login">Логін</label>
+                        <input type="text" name="login" id="login" data-type="string" />
+                    </div>
+                </fieldset>
+                <p><input type="submit" id="submit-order" value="Оформити" class="btn" /></p>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Кошик</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="style.css" media="screen" type="text/css" />
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+	<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	
+</head>
+
+<body id="cart-page">
+	<div id="site" class="cartcontent">
+		<div id="content">
+			<h1>Ваш кошик</h1>
+			<form id="shopping-cart" action="cart.html">
+				<table class="shopping-cart">
+					<thead>
+						<tr>
+							<th scope="col">Виріб</th>
+							<th scope="col">Кількість</th>
+							<th scope="col">Ціна</th>
+							<th style="width: 60px;"></th>
+						</tr>
+					</thead>
+					<tbody>
+
+					</tbody>
+				</table>
+				
+					<p id="sub-total">
+					<strong>Сума замовлення</strong>: <span id="stotal"></span>
+				</p>
+				
+				<ul id="shopping-cart-actions">
+					<li>
+						<input type="submit" name="update" id="update-cart" class="btn" value="Оновити кошик" />
+					</li>
+					<li>
+						<input type="submit" name="delete" id="empty-cart" class="btn" value="Очистити кошик" />
+					</li>					
+				</ul>
+				<ul id="shopping-cart-action">
+					<li>
+						<a href="index.html" class="btn">Продовжити вибирати товари</a>
+					</li>
+					<li>
+						<a href="checkout.html" class="btn">Оформити замовлення</a>
+					</li>
+				</ul>
+			</form>
+		</div>
+	</div>
+
+	<!-- <footer class="footer">&#169;2023</footer> -->
+</body>
+
+</html>

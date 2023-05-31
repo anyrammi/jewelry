@@ -1,0 +1,248 @@
+* {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Навігаційне меню*/
+.navbar {
+	background-color: lightgrey;
+	width: 100%;
+	height: 100px;
+	position: fixed;
+	margin-bottom: 15px;
+}
+
+.navbar-nav li {
+	padding: 0 10px;
+	margin-right: 10px;
+	border-left: solid;
+	border-right: solid;
+	border-color: darkgray;
+}
+
+.navbar-nav li a {
+	float: right;
+	text-align: left;
+	font-size: 20px;
+}
+
+/*Заголовки*/
+.title-box {
+	background: lightgray;
+	color: #000000dd;
+	width: 100%;
+	height: 70px;
+	padding-left: 45%;
+	padding-top: 15px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	display: flex;
+}
+
+/*Ювелірні вироби*/
+.product-top img {
+	width: 100%;
+	height: 100%;
+}
+
+.product-bottom h3 {
+	font-size: 22px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+.product-description {
+	color: black;
+}
+
+.product-price {
+	width: auto;
+	height: auto;
+	font-size: 21px;
+	text-align: center;
+	background: white;
+	color: black;
+}
+
+.add-to-cart {
+	width: auto;
+	height: auto;
+	text-align: center;
+	color: black;
+}
+
+.add-to-cart .btn {
+	background: lightgray;
+	margin-bottom: 15px;
+}
+
+/* Количество товара */
+form input.qty {
+	width: 60px;
+	border: 2px solid #eee;
+	font-size: 18px;
+	text-align: center;
+	background: #f9f9f9;
+	color: black;
+	border-radius: 5px;
+	border-color: silver;
+	margin-left: 5px;
+}
+
+.btn {
+	display: inline-block;
+	background: lightgray;
+	color: black;
+	font: 18px;
+	padding: 10px 10px;
+	margin-right: 2%;
+	text-align: center;
+	border-radius: 5px;
+	border: 1px solid darkgray;
+}
+
+a.btn {
+	display: inline-block;
+	background: lightgray;
+	color: black;
+	font: 18px;
+	padding: 10px 10px;
+	margin-right: 2%;
+	text-align: center;
+	border-radius: 5px;
+	border: 1px solid darkgray;
+}
+
+/*Кошик*/
+#shopping-cart {
+	margin: 15px 0;
+	padding: 0 25px;
+}
+
+#content h1 {
+	text-align: center;
+	padding-bottom: 40px;
+}
+
+.shopping-cart {
+	border: 1px solid #ddd;
+	border-collapse: collapse;
+	border-spacing: 0;
+	table-layout: fixed;
+	width: 100%;
+}
+
+.shopping-cart tbody {
+	text-align: center;
+	width: 30%;
+}
+
+.shopping-cart th {
+	font-size: 22px;
+	height: 50px;
+	width: 30%;
+	border: 1px solid #ddd;
+	text-transform: uppercase;
+	background: silver;
+}
+
+.shopping-cart td {
+	height: 50px;
+	border: 1px solid #ddd;
+}
+
+.shopping-cart tr:nth-child(even) {
+	background: #fafafa;
+}
+
+.shopping-cart td.pdelete {
+	text-align: center;
+}
+
+.pdelete a {
+	color: red;
+	text-decoration: none;
+	font-size: 25px;
+	display: block;
+	text-align: center;
+}
+
+#shopping-cart-actions {
+	margin: 15px 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+
+#shopping-cart-action {
+	margin: 15px 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+
+#shopping-cart-actions li {
+	width: 300px;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+#shopping-cart-action li {
+	width: 300px;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+#shopping-cart-action a {
+	text-decoration: none;
+}
+
+#sub-total {
+	font-size: 25px;
+	text-align: center;
+	margin-top: 70px;
+}
+
+#checkout-order-form h2 {
+	text-align: center;
+	margin-top: 100px;
+}
+
+#checkout-order-form div {
+	width: 250px;
+	padding-top: 20px;
+	padding-left: 10px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+#fieldset-billing {
+	margin-left: 600px;
+	width: 300px;
+	height: 120px;
+}
+
+#checkout-order-form p {
+	text-align: center;
+	margin-top: 30px;
+}
+
+#btn-main-page {
+	margin-top: 70px;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+
+#btn-main-page a {
+	text-decoration: none;
+}
+
+.footer {
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	background: lightgray;
+	padding-top: 50px;
+	margin-top: 100px;
+}
