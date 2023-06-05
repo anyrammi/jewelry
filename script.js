@@ -238,10 +238,10 @@ $.noConflict();
 			this.storage.clear();
 		},
 
-		//Форматирование числа по знакам после запятой
+		// Форматування числа по знаках після коми
 		_formatNumber: function (num, places) {
-			var n = num.toFixed(places);
-			return n;
+			var rounded = Math.round(num * Math.pow(10, places)) / Math.pow(10, places);
+			return rounded.toFixed(places);
 		},
 
 		//Извлечение цены из строки
